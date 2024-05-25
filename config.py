@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "23392712"))
-API_HASH = getenv("API_HASH", "7cb236b197b25c243fa83e7e0173d0e6")
+API_ID = int(getenv("API_ID", "27516268"))
+API_HASH = getenv("API_HASH", "6fbb99596377f082fe252091a023aa33")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @BEWAFAMUSICBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6052880487"))
+OWNER_ID = int(getenv("OWNER_ID", "6713421664"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWF_MUSIC1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mr_nobi_1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Mr_nobi_1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -67,7 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @STRINGKINGBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFdL80ArQ4Iz4TQX_8Z7flYObH85uD9BGnHeEFpFqd1qZM9Df7pyLwI6mXHKJZLzbSoEoyaJxk0j-pWJRGT2aDbRY3uF_veK7p_3u-ZAOv8wlXYNU0wAW05fGHsh1nXLCtqDcdg_FXhlsgltZXWjl_P2rX5O9kYXrGToafUIQip5ucmZeknLFsbS796a6ohVdn5lA24kU_P2L4B-gAHqLSCNMHFtlhgwMw-9OkA-yAsljU6TgTP4q2H0pUAkSyqNG-MsbAfEaNXywNTmp-9uG2vln0lWVYl3BqTFESreN11TH3jU5j3-xGPPnVVgObnEt-sofqWAvKgUZJxxuLpIOn-3YXN1QAAAAFox6BnAA 
+STRING1 = getenv("STRING_SESSION", "BQGj3WwAHNZTsCXPHlwvxCc-ljaSPZbkcJNKupos5Hyih_g2NVAn56LakMyg-loCY9y9wj6Yd1uYwCzQRDG8XrVnF3IGLJ0El6LSLQ8YONhFN6rtck94412nBNxE56ikVG5MHPmuEEyilAFR0JKTkSecRI27mml-U87LrpNKjWhHRMFAYuqe8z1jrWUSpRE2Idg4BQWuEvVFcM41UcVQYbXgX6YoDO8jxXNhn3TTvIzdnbdb2uy4A9dqK7bMuwsx0jsaOJKYbwvMoEax5kKkN5IgWXUl8mL1zrk94BmuRwUCw4O0sp7jYweO2pwE2NKHkpyf55g4F2DiTb1Oxvr6cDQHLjOdAQAAAAGYWaUjAA 
 ")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -88,13 +88,13 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+    "START_IMG_URL", "https://graph.org/file/c2f247db74e0f00579fc8.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+    "PING_IMG_URL", "https://graph.org/file/c94cd0c1ddd9f030547e1.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+STATS_IMG_URL = "https://graph.org/file/886268b613762bd87f00e.mp4"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
